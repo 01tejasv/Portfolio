@@ -1,0 +1,74 @@
+# Contact Book Program
+
+class Contact:
+    def __init__(self, name, phone, email, address):
+        self.name = name
+        self.phone = phone
+        self.email = email
+        self.address = address
+
+    def __str__(self):
+        return f"Name: {self.name}\nPhone: {self.phone}\nEmail: {self.email}\nAddress: {self.address}"
+
+class ContactBook:
+    def __init__(self):
+        self.contacts = []
+
+    def add_contact(self, name, phone, email, address):
+        new_contact = Contact(name, phone, email, address)
+        self.contacts.append(new_contact)
+        print(f"\nContact for {name} added successfully!")
+
+    def view_contacts(self):
+        if not self.contacts:
+            print("\nNo contacts available.")
+        else:
+            print("\nContacts:")
+            for contact in self.contacts:
+                print(f"\n{contact}")
+
+    def delete_contact(self, name):
+        for contact in self.contacts:
+            if contact.name.lower() == name.lower():
+                self.contacts.remove(contact)
+                print(f"\nContact for {name} deleted successfully!")
+                return
+        print(f"\nNo contact found with the name {name}.")
+
+def show_menu():
+    print("\nContact Book Menu")
+    print("1. Add a contact")
+    print("2. View all contacts")
+    print("3. Delete a contact")
+    print("4. Exit")
+
+def main():
+    contact_book = ContactBook()
+
+    while True:
+        show_menu()
+        choice = input("\nEnter your choice (1/2/3/4): ")
+
+        if choice == '1':
+            name = input("\nEnter name: ")
+            phone = input("Enter phone number: ")
+            email = input("Enter email: ")
+            address = input("Enter address: ")
+            contact_book.add_contact(name, phone, email, address)
+
+        elif choice == '2':
+            contact_book.view_contacts()
+
+        elif choice == '3':
+            name = input("\nEnter the name of the contact to delete: ")
+            contact_book.delete_contact(name)
+
+        elif choice == '4':
+            print("\nExiting the Contact Book. Goodbye!")
+            break
+
+        else:
+            print("\nInvalid choice. Please try again.")
+
+if __name__ == "__main__":
+    main()
