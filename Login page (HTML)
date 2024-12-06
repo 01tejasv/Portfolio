@@ -1,0 +1,18 @@
+<html>
+<form>
+<h1><img src="C:\Users\dell\OneDrive\Pictures\nitra logo 2.jpeg" height="130" align="left"><br><center>Nitra Technical Campus<br>Sector-23, Ghaziabad, U.P.</center></h1><br>
+<table border="1">
+<tr>
+<td><pre><a href="C:\Users\dell\Desktop\Home Page.html">​Home​</pre></a></td>
+<td><pre><a href="C:\Users\dell\Desktop\Login Page.html">​Login​</pre></a></td>
+<td><pre><a href="C:\Users\dell\Desktop\Registration Page.html">​Registration​</pre></a></td>
+<td><pre><a href="C:\Users\dell\Desktop\Catalogue.html">​Catalogue​</pre></a></td>
+<td><pre><a href="C:\Users\dell\Desktop\Cart Page.html">​Cart Page​</pre></a></td>
+</tr></table>
+<p><center>Login Page</center></p>
+<p><center>User Name:                            
+<input type="text" name="uname"><br></center></p>
+<p><center>Passwords:      
+<input type="text" name="password"></center></p>
+<center><input type="submit" name=name of submit button" value="Submit">
+<input type="reset" name=name of submit button" value="Reset"></center>
