@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>Home Page</title>
+</head>
+<body>
+<h1><img src="C:\Users\dell\OneDrive\Pictures\nitra logo 2.jpeg" height="130" align="left"><br><center>Nitra Technical Campus<br>Sector-23, Ghaziabad, U.P.</center></h1><br>
+<h2>
+<table border="1">
+<tr>
+<td><pre><a href="C:\Users\dell\Desktop\Home Page.html">​Home​</pre></a></td>
+<td><pre><a href="C:\Users\dell\Desktop\Login Page.html">​Login​</pre></a></td>
+<td><pre><a href="C:\Users\dell\Desktop\Registration Page.html">​Registration​</pre></a></td>
+<td><pre><a href="C:\Users\dell\Desktop\Catalogue.html">​Catalogue​</pre></a></td>
+<td><pre><a href="C:\Users\dell\Desktop\Cart Page.html">​Cart Page​</pre></a></td>
+</h2>
+</body>
+</html>
