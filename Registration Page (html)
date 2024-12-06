@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Registration Page</title>
+</head>
+<h1><img src="C:\Users\dell\OneDrive\Pictures\nitra logo 2.jpeg" height="130" align="left"><br><center>Nitra Technical Campus<br>Sector-23, Ghaziabad, U.P.</center></h1><br>
+<table border="1">
+<tr>
+<td><pre><a href="C:\Users\dell\Desktop\Home Page.html">​Home​</pre></a></td>
+<td><pre><a href="C:\Users\dell\Desktop\Login Page.html">​Login​</pre></a></td>
+<td><pre><a href="C:\Users\dell\Desktop\Registration Page.html">​Registration​</pre></a></td>
+<td><pre><a href="C:\Users\dell\Desktop\Catalogue.html">​Catalogue​</pre></a></td>
+<td><pre><a href="C:\Users\dell\Desktop\Cart Page.html">​Cart Page​</pre></a></td>
+</tr></table>
+<form>
+<p>Registration Page</p>
+Name:                            
+<input type="text" name="name"><br>
+Password:      
+<input type="text" name="password"><br>
+E-mail ID:      
+<input type="text" name="e-mail id"><br>
+Phone Number:      
+<input type="text" name="pnumber"><br>
+Sex:      
+<input type="radio" name="male">Male
+<input type="radio" name="female">Female<br>
+Date of Birth:
+<input type="number" name="day" value="day"><input type="number" name="day">
+<input type="number" name="day"><br>
+Languages Known:
+<input type="checkbox" name="English" value="Yes">English<input type="checkbox" name="Telugu" value="1">Telugu<input type="checkbox" name="Hindi" value="1">Hindi<input type="checkbox" name="Tamil" value="1">Tamil<br>
+Address:
+<input type="text" name="address">
